@@ -2,9 +2,11 @@
   "expo": {
     "name": "weather",
     "slug": "weather",
-    "privacy" : "public",
-    "platforms" : [
-      "ios","android","web"
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -31,6 +33,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": ""
   }
 }

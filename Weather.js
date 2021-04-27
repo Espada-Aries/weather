@@ -7,62 +7,63 @@ import {LinearGradient} from "expo-linear-gradient";
 const weatherOptions = {
     Thunderstorm: {
         iconName : "weather-lightning",
-        gradient : ["#373B44,#4286f4"],
-        title : "Thunderstorm",
-        subtitle : "Actuallym outside of the house."
+        gradient : ["#f0c27b","#4b1248"],
+        title : "落雷",
+        subtitle : "雷にご注意ください。"
     },
     Drizzle: {
         iconName : "weather-hail",
         gradient : ["#89F7FE","#66A6FF"],
-        title : "Drizzle",
-        subtitle : "Is like rain, but gay."
+        title : "霧雨",
+        subtitle : "散りゆく雨と霧の中からかすかに見える君の姿"
     },
     Rain: {
         iconName : "weather-rainy",
         gradient : ["#00C6Fb", "#005BEA"],
-        title : "Rain",
-        subtitle : "For more info look outside."
+        title : "雨",
+        subtitle : "恋は雨上がりのように"
     },
     Snow: {
         iconName : "weather-snowy",
-        gradient : ["#6DE2FC","B9B6E5"],
-        title : "Snow",
-        subtitle : "Do you want to build a snowman?."
+        gradient : ["#e6dada","274046"],
+        title : "雪",
+        subtitle : "目の前、全てが真っ白になった。"
     },
-    Atmosphere: {
-        iconName : "weather-hail",
-        gradient : ["#89F7FE", "#66A6FF"],
-        title : "Atmosphere"
-    },
+ //   Atmosphere: {
+ //       iconName : "weather-hail",
+ //       gradient : ["#89F7FE", "#66A6FF"],
+ //       title : "Atmosphere",
+ //       subtitle : "Empty"
+ //   },
     Clear: {
         iconName : "weather-sunny",
         gradient : ["#FF7300","#FEF253"],
-        title : "Clear",
-        subtitle : "Sunny!."
+        title : "晴れ",
+        subtitle : "ただ君に晴れ"
     },
     Clouds: {
         iconName : "weather-cloudy",
         gradient : ["#D7D2CC","#304352"],
-        title : "Clouds",
-        subtitle : "Just don't go outside."
+        title : "曇り",
+        subtitle : "曇り。。"
     },
     Mist: {
         iconName : "weather-hail",
-        gradient : ["#4DA0B0","#D39D38"],
-        title : "Mist",
-        subtitle : "i'm blind."
+        gradient : ["#606c88","#3f4c6b"],
+        title : "霧",
+        subtitle : "霧の中に消えてゆく"
     },
-    Haze: {
-        iconName : "weather0hail",
-        gradient : ["#4DA0B0","#D39D38"],
-        title : "Haze",
-        subtitle : "Just don't go outside."
-    },
+ //   Haze: {
+ //       iconName : "weather-hail",
+ //       gradient : ["#4DA0B0","#D39D38"],
+ //       title : "Haze",
+ //       subtitle : "Empty"
+ //   },
     Dust: {
         iconName : "weather-hail",
         gradient : ["#4DA0B0","#D39D38"],
         title : "Dust",
-        subtitle : "Fucking China."
+        subtitle : "PM2.5"
     }
  //   Smoke: {
  //       iconName : "",
